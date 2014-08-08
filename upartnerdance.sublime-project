@@ -1,0 +1,23 @@
+{
+  "folders": [
+    {
+      "folder_exclude_patterns": [
+        "_site", 
+        "node_modules", 
+        "vendor", 
+        ".git"
+      ],
+      "file_exclude_patterns": [
+        "*.sublime-workspace",
+        "*.sublime-project",
+        "Guardfile",
+        "Procfile",
+        ".gitignore"
+      ],
+      "path": "./"
+    }
+  ], 
+  "settings": {
+    "tab_size": 2
+  }
+}

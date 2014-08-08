@@ -1,0 +1,12 @@
+name: 'U Partner Dance'
+markdown: rdiscount
+stylus:
+  compress: true
+  path: ./css
+  use: nib
+permalink: pretty
+exclude: [
+  node_modules,
+  'upartnerdance.sublime-project',
+  'upartnerdance.sublime-workspace'
+]
