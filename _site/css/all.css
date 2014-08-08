@@ -1,0 +1,58 @@
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+h1,h2{font-weight:400}
+.mast{height:400px;background:url("../img/bg.png") repeat-x top center;padding-top:6em;}
+.mast h2,.mast small{margin-top:1em;font-weight:200}
+img{max-width:100%}
+.tertiary-banner{background-color:#00725d}
+.white-banner{background:url("../img/whitebg.png") top center}
+.text-white{color:#fff}
+.community-banner{padding-top:1em;padding-bottom:1em}
+.initiative{padding-top:6em;padding-bottom:6em}
+.initiative + .initiative{padding-top:0}
+.logo{margin-bottom:2em}
+.mission a:link,.mission a:visited{color:#c8fff5}
+.mission a:hover{color:#fff;text-decoration:none}
+.mission a:active{color:#c8fff5}
+@media screen and (min-width: 500px){.initiative{padding-top:10em;padding-bottom:10em}
+.initiative + .initiative{padding-top:0}
+.mast{height:528px;padding-top:11em}
+}html,body{height:100%}
+.wrapper{min-height:70%;height:auto !important;margin-bottom:40px}
+@media screen and (min-width: 768px){.banner .lead,.logo{text-align:left}
+}@media (min-width: 1200px){.container{max-width:940px}
+}.push{margin-bottom:20px}
+.btn-huge{padding:20px;font-size:22px}
+.btn-blue-bubble{border-color:#4d4d4d;color:#fff;background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #00e9be), color-stop(1, #00725d));background:-webkit-linear-gradient(top, #00e9be 0, #00725d 100%);background:-moz-linear-gradient(top, #00e9be 0, #00725d 100%);background:-o-linear-gradient(top, #00e9be 0, #00725d 100%);background:-ms-linear-gradient(top, #00e9be 0, #00725d 100%);background:linear-gradient(top, #00e9be 0, #00725d 100%);text-shadow:0 -1px 0 rgba(0,0,0,0.6);}
+.btn-blue-bubble:hover,.btn-blue-bubble:focus{background:#00725d;color:#d7fff8}
+.btn-blue-bubble:active{background:#00725d;-webkit-box-shadow:inset 0 1px 3px rgba(0,0,0,0.4);box-shadow:inset 0 1px 3px rgba(0,0,0,0.4)}
+.icons-ul{margin:0}
+.navbar.navbar-default{border-bottom-color:#00866d;-webkit-box-shadow:0 1px 2px rgba(0,0,0,0.4);box-shadow:0 1px 2px rgba(0,0,0,0.4);background:#009a7d;z-index:100;}
+.navbar.navbar-default a,.navbar.navbar-default li > a{color:#fff;}
+.navbar.navbar-default a:hover,.navbar.navbar-default li > a:hover{color:#d7fff8}
+.navbar.navbar-default li.active > a{color:#fff;background-color:rgba(255,255,255,0.3);}
+.navbar.navbar-default li.active > a:hover{color:#fff;background-color:rgba(255,255,255,0.5)}
+.navbar.navbar-default .navbar-toggle{border-color:rgba(255,255,255,0.4);}
+.navbar.navbar-default .navbar-toggle:hover{background-color:rgba(255,255,255,0.2)}
+.navbar.navbar-default .navbar-toggle .icon-bar{background-color:rgba(255,255,255,0.6)}
+.navbar-static-top{margin-bottom:0}
+.banner{background:url("../img/wall.png") top center;-webkit-box-shadow:inset 0 -1px 3px rgba(0,0,0,0.5);box-shadow:inset 0 -1px 3px rgba(0,0,0,0.5);text-align:center;z-index:1;padding-top:20px;padding-bottom:10px;}
+.banner .logo{margin-top:10px}
+.banner img{max-width:100%;margin-bottom:20px;position:relative;top:0;left:-2px}
+.banner .lead{margin-top:10px;background:rgba(1,1,1,0.5);padding:8px 10px 8px 14px;-webkit-border-radius:5px;border-radius:5px;color:#fff;text-shadow:0 -1px 0 #000}
+.comp-meta{margin-top:30px;font-size:1.2em;}
+.comp-meta > div{padding-right:40px}
+.comp-meta p,.comp-meta address{max-width:430px;color:#8f8f8f}
+.comp-meta i{position:relative;top:20px;left:0;float:left;width:60px;margin-right:10px;margin-bottom:70px;font-size:60px;text-align:center;color:#8a0023}
+@media screen and (min-width: 400px){.comp-meta i{position:relative;top:20px;left:0;float:left;width:90px;margin-right:20px;margin-bottom:70px;font-size:90px;text-align:center;color:#8a0023}
+}.mission{padding:30px 0 50px 0;color:#fff;background:#00725d;text-shadow:0 -1.5px 0 rgba(0,0,0,0.6);}
+.mission hr{opacity:.6;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";filter:alpha(opacity=60)}
+.mission ul{margin:0;font-size:15px;font-weight:300}
+.mission li{margin-bottom:10px}
+@media (min-width: 768px){.mission ul{font-size:20px}
+}.register table ul{margin:0;padding-left:24px}
+.register .icon-usd{color:#468847}
+.register .icon-ban-circle{color:#b94a48}
+.schedule th{min-width:90px}
+.footer{border-top:5px solid #343434;background:#333;text-shadow:0 -1px 0 rgba(0,0,0,0.5);padding:40px 0 60px 0;color:#fff;}
+.footer a{color:#6effdf}
+.declaration-order{position:absolute;top:0;right:0;bottom:0;left:0;z-index:100;display:block;float:right;width:100px;height:100px;font:normal 13px "Helvetica Neue",sans-serif;line-height:1.5;color:#333;text-align:center;background-color:#f5f5f5;border:1px solid #e5e5e5;-webkit-border-radius:3px;border-radius:3px;opacity:1;-ms-filter:none;filter:none}
