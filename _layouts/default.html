@@ -59,8 +59,14 @@
   </div>
  -->
   <!-- <script src="{{ page.base_url }}js/jquery.js" type="text/javascript" charset="utf-8"></script>
-  <script src="{{ page.base_url }}js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
  -->
+  <script src="{{ page.base_url }}js/parallaxify.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript" charset="utf-8">
+    new Parallaxify({
+      elements: '.cover-image'
+    }).registerUpdate()
+  </script>
+
   {% include analytics.html %}
 </body>
 </html>
